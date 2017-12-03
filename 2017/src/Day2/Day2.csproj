@@ -3,9 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>Day1</AssemblyName>
-    <RootNamespace>Day1</RootNamespace>
-    <CodeAnalysisRuleSet>Day1.ruleset</CodeAnalysisRuleSet>
+    <AssemblyName>Day2</AssemblyName>
+    <RootNamespace>Day2</RootNamespace>
+    <CodeAnalysisRuleSet>Day2.ruleset</CodeAnalysisRuleSet>
     <Authors>Luke Pothier</Authors>
     <RepositoryType>git</RepositoryType>
     <Version>1.0.0</Version>
