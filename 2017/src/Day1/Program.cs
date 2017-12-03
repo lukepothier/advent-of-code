@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace AdventOfCode._2017
+namespace Day1
 {
     // Puzzle @ https://adventofcode.com/2017/day/1
 
