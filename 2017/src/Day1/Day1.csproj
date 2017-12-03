@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Day1</AssemblyName>
+    <RootNamespace>Day1</RootNamespace>
+    <CodeAnalysisRuleSet>Day1.ruleset</CodeAnalysisRuleSet>
+    <Authors>Luke Pothier</Authors>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="codecracker.CSharp" Version="1.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RefactoringEssentials" Version="5.4.0" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="6.6.0.3969" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
