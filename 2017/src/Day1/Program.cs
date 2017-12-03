@@ -17,6 +17,8 @@ namespace Day1
 
         static int Solve1a(string inputString)
         {
+            inputString = inputString.Replace("\r\n", "").Replace("\n", "").Replace("\r", "");
+
             char[] characters = inputString.ToCharArray();
 
             int[] input = Array.ConvertAll(characters, c => (int)char.GetNumericValue(c));
@@ -47,6 +49,8 @@ namespace Day1
 
         static int Solve1b(string inputString)
         {
+            inputString = inputString.Replace("\r\n", "").Replace("\n", "").Replace("\r", "");
+
             char[] characters = inputString.ToCharArray();
 
             int[] input = Array.ConvertAll(characters, c => (int)char.GetNumericValue(c));
